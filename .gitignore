@@ -7,14 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-src/assets/video/video1.mp4
-src/assets/video/video2.mp4
-src/assets/video/video3.mp4
-
 node_modules
 dist
 dist-ssr
 *.local
+
+src/assets/video/video1.mp4
+src/assets/video/video2.mp4
+src/assets/video/video3.mp4
 
 # Editor directories and files
 .vscode/*

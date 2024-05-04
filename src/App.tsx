@@ -1,10 +1,11 @@
 // App.tsx
 import { useState } from 'react';
-import NavBar from "./components/NavBar"
-import Films from "./components/Films"
-import Carouseltest from "./components/Carouseltest"
-import SideBar from "./components/SideBar"
-import LoginForm from "./components/Login"
+import NavBar from "./assets/components/NavBar"
+import Films from "./assets/components/Films"
+import Carouseltest from "./assets/components/Carouseltest"
+import SideBar from "./assets/components/SideBar"
+import LoginForm from "./assets/components/Login"
+
 
 const App: React.FC = () => {
   const [showSidebar, setShowSidebar] = useState(false);

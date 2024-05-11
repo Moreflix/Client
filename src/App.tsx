@@ -15,13 +15,13 @@ const App: React.FC = () => {
     <>
       <NavBar onMenuClick={() => setShowSidebar(true)} onLoginClick={() => setShowLogin(true)} />
       <SideBar show={showSidebar} onClose={() => setShowSidebar(false)} />
-      {showLogin && <LoginForm onClose={() => setShowLogin(false)} />}
       <div className="flex flex-col bg-[#252525ff] min-h-screen">
         <div className="relative w-full h-64">
           <Carouseltest />
         </div>
         <Films />
       </div>
+      {showLogin && <LoginForm onClose={() => setShowLogin(false)} />}
     </>
   )
 }
